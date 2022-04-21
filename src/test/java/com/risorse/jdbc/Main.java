@@ -1,4 +1,4 @@
-package esercizioJdbc;
+package com.risorse.jdbc;
 
 import static org.junit.Assert.assertTrue;
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -8,6 +8,9 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 import org.junit.jupiter.api.Test;
+
+import com.risorse.jdbc.JdbcBase;
+import com.risorse.jdbc.JdbcQuery;
 
 public class Main {
 	

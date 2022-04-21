@@ -1,4 +1,4 @@
-package esercizioJdbc;
+package com.risorse.jdbc;
 
 import java.lang.reflect.InvocationTargetException;
 import java.sql.ResultSet;
