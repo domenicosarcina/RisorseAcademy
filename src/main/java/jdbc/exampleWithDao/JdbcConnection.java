@@ -1,4 +1,4 @@
-package com.risorse.jdbc;
+package jdbc.exampleWithDao;
 
 import java.lang.reflect.InvocationTargetException;
 import java.sql.Connection;
@@ -6,7 +6,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-public class JdbcBase {
+public class JdbcConnection {
 	
 	static String usr = "root";
 	static String pwd = "password";
@@ -21,7 +21,4 @@ public class JdbcBase {
 	    return conn;
 	}
 	
-	
-
-
 }
