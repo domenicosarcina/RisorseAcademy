@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC  
+          "-//Hibernate/Hibernate Configuration DTD 5.3//EN"  
+          "http://hibernate.sourceforge.net/hibernate-configuration-5.3.dtd">  
+   
+<hibernate-mapping>
+  <class name="hibernate.exampleWithXML.City" table="city">
+<id name="ID"> 									<!-- property column inutile se name=column -->
+  		<generator class="native"></generator> 	<!-- https://www.javatpoint.com/generator-classes -->
+  	</id>
+  	<property name="name" column="Name"></property>
+  	<property name="countryCode" column="CountryCode"></property>
+  	<property name="district" column="District"></property>
+  	<property name="population" column="Population"></property>
+  </class>
+</hibernate-mapping>
+

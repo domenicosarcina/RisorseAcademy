@@ -12,8 +12,8 @@ import org.junit.jupiter.api.Test;
 
 import jdbc.examplePureJdbc.JdbcConnection;
 import jdbc.examplePureJdbc.JdbcQuery;
-import jdbc.exampleWithDao.dao.CityDao;
-import jdbc.exampleWithDao.dao.CityDaoImpl;
+//import hibernate.exampleWithXML.dao.*;
+import jdbc.exampleWithDao.dao.*;
 import jdbc.exampleWithDao.model.City;
 
 public class Main {
@@ -47,4 +47,11 @@ public class Main {
 		CityDao cityDao = new CityDaoImpl();
 		assertEquals(4079,cityDao.getCities().size());
 	}
+	
+	
+	/*@Test
+	public void testHibernateXmlHql() {
+		CityDao cityDao = new CityDaoImpl();
+		assertEquals(4079,cityDao.getCities().size());
+	}*/
 }
