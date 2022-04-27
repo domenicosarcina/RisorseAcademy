@@ -12,8 +12,7 @@ import org.junit.jupiter.api.Test;
 
 import jdbc.examplePureJdbc.JdbcConnection;
 import jdbc.examplePureJdbc.JdbcQuery;
-//import hibernate.exampleWithXML.dao.*;
-import jdbc.exampleWithDao.dao.*;
+import hibernate.exampleWithXML.dao.*;
 import jdbc.exampleWithDao.model.City;
 
 public class Main {

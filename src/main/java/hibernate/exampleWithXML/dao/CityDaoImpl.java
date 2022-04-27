@@ -24,6 +24,7 @@ public class CityDaoImpl implements CityDao {
 		String hql = "from City";
 		Query q = session.createQuery(hql);
 		Collection<City> cities = q.list();
+		System.out.println(q.list().get(0));
 		return cities;
 	}
 
